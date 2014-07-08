@@ -14,7 +14,7 @@ app.controller("ExampleCtrl", function($scope) {
     },
     car3: {
       name: 'Sam',
-      position: 3
+      position: 21
     },
     car4: {
       name: 'Olavi Penttiä-Alahirmu-koskinen ("aka Kossu Koskinen")',

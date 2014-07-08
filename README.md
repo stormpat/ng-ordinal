@@ -1,6 +1,6 @@
 ## Angularjs Ordinal
 
-Display results as ordinal numbers. Meaning; if you display results from a competition,
+Display results as [ordinal numbers](http://en.wikipedia.org/wiki/English_numerals#Ordinal_numbers). Meaning; if you display results from a competition,
 or race you probably want to show them as ```1st, 2nd, 3rd, 4th etc```. With this tiny module
 you can do it easily.
 
