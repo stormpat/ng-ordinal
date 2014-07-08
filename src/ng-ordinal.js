@@ -11,7 +11,7 @@
       this.suffixes = ['th', 'st', 'nd', 'rd', 'th', 'th', 'th', 'th', 'th', 'th'];
     };
 
-    Ordinal.prototype.ordinal = function() {
+    Ordinal.prototype.addIndicator = function() {
       var number = this.num
         , isNotValid = /^(string|number)$/.test(typeof number) === false
         , match = number.toString().match(/\d$/)
@@ -39,7 +39,7 @@
       template: '<span ng-transclude></span>',
       link: function(scope, elem, attrs) {
         var nth = new Ordinal(scope.item);
-        return elem.text(nth.ordinal());
+        return elem.text(nth.addIndicator());
       }
     }
   });
