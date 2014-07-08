@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>nth</title>
+</head>
+<body>
+<div ng-controller="ExampleCtrl">
+    <div ng-repeat="driver in formulaResults">
+      <h3>{{driver.name}}</h3> Finished: <strong><nth item="driver.position"></nth></strong>
+    </div>
+</div>
+<script src="example/angular.js"></script>
+<script src="../src/ng-ordinal.js"></script>
+<script src="example/example.js"></script>
+</body>
+</html>
